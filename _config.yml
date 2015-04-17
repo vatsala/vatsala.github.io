@@ -10,7 +10,7 @@ relative_permalinks: true
 
 # Setup
 title:               Vatsala Dorairajan
-tagline:             'Simple. Straitforward.'
+tagline:             'Permanently Curious'
 description:         "This site is built using a <a href='http://jekyllrb.com' target='_blank'>Jekyll</a> theme. Theme built by <a href='https://twitter.com/mdo' target='_blank'>@mdo</a> and customised by <a href='https://twitter.com/vatsala' target='_blank'>@vatsala</a>"
 url:                 http://vatsala.co.in
 baseurl:             /
