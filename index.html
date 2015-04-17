@@ -1,38 +1,14 @@
 ---
-layout: default
-title: Home
+layout: page
+title: About
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+Hi I am **Vatsala Dorairajan**. I graduated with a Bachelor’s Degree in Computer Science from Anna University(KCG College of Technology), Chennai in May 2008.
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+Since then, I have worked with PHP(2008-2009),Java(2009-2013),Adobe Flex(2009-2011), Python(hobby projects)(2013-2014), Javascript(Backbone.js mostly)(all along so far), Ruby-Rails(2014-)
 
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
+The idea of starting this blog is to try and give answers to those questions for which I couldnt find an answer in google search. This, I feel, is a small contribution from my side to the community. Learners and beginners will particularly find this content useful as it is a record of my hands on experiences.
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+My Personal Blog is at [Electic Rant](http://eclectic-rant.blogspot.com) and you can find me [here](https://twitter.com/vatsala) on twitter.
 
+Thanks for reading!
