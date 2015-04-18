@@ -21,7 +21,11 @@ author:
   name:              Vatsala Dorairajan
   url:               http://vatsala.co.in
   email:             vatsala<dot>dorairajan@gmail.com
-  twitter:           htts://twitter.com/vatsala
+  twitter:           https://twitter.com/vatsala
+  linked_in:         https://www.linkedin.com/in/vatsala
+  facebook:          https://www.facebook.com/vatsala.dorairajan
 
 # Custom vars
 version:             1.0.0
+personal_blog:       http://eclectic-rant.blogspot.com
+tech_blog:           http://vatsalad.wordpress.com
